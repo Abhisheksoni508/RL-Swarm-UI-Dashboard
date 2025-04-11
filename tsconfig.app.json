@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,               // Allow JavaScript files
+    "checkJs": false,              // Don't type-check JavaScript files
+    "types": ["vite/client"],      // Required for Vite env variables
+    "baseUrl": "./",               // Better import resolution
+    "paths": {
+      "@/*": ["src/*"]             // Enable @/ alias imports
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,80 @@
+/* Card Container */
+.node-card {
+    background: #1e293b;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    max-width: 28rem;
+    margin: 0 auto;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border-left: 4px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .node-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3);
+    border-left-color: #60a5fa;
+  }
+  
+  /* Header */
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .node-id {
+    color: #60a5fa;
+    text-shadow: 0 0 8px rgba(96, 165, 250, 0.4);
+  }
+  
+  /* Live Badge */
+  .live-badge {
+    background: #10b981;
+    color: white;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    animation: pulse 2s infinite;
+  }
+  
+  /* Stats Grid */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  /* Stat Items */
+  .stat {
+    background: #1e293b;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .stat:hover {
+    transform: scale(1.03);
+  }
+  
+  .stat-label {
+    color: #94a3b8;
+    font-size: 0.875rem;
+  }
+  
+  .stat-value {
+    font-weight: bold;
+  }
+  
+  /* Animations */
+  @keyframes pulse {
+    0%, 100% { opacity: 1 }
+    50% { opacity: 0.7 }
+  }
