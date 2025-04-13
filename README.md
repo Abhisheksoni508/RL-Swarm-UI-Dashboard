@@ -94,4 +94,4 @@ The dashboard was designed with these principles in mind:
 
 ---
 
-Created by Abhishek Soni for the RL Swarm UI Bounty @EncodeAI.
+Created by Abhishek Soni for the RL Swarm UI Bounty @Encodeclub.
